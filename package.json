@@ -1,0 +1,38 @@
+{
+  "name": "homework-ab-math",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/moregotz/homework-ab-math#readme",
+  "bugs": {
+    "url": "https://github.com/moregotz/homework-ab-math/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moregotz/homework-ab-math.git"
+  },
+  "license": "ISC",
+  "author": "moregotz",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "server": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "compilation": "babel src -d dist -w",
+    "lint": "eslint src",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.4",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "babel-loader": "^10.1.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "jest": "^30.5.1"
+  }
+}
