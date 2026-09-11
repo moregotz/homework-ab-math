@@ -17,6 +17,16 @@
     "import/extensions": [
       "error",
       "ignorePackages"
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "max-classes-per-file": [
+      "error",
+      2
     ]
   }
 }
